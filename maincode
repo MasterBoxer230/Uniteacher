@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персональна сторінка викладача</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .photo {
+            float: right;
+            margin-left: 20px;
+            border-radius: 8px;
+            width: 150px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #0073e6;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Персональна сторінка викладача</h1>
+    </header>
+    <div class="container">
+        <!-- Загальна інформація -->
+        <section>
+            <h2>Загальна інформація</h2>
+            <img src="photo.jpg" alt="Фотографія викладача" class="photo">
+            <p><strong>Прізвище, ім'я, по батькові:</strong> Іванов Іван Іванович</p>
+            <p><strong>Науковий ступінь:</strong> Доктор наук</p>
+            <p><strong>Вчене звання:</strong> Професор</p>
+            <p><strong>Посада:</strong> Завідувач кафедри прикладної математики</p>
+        </section>
+        
+        <!-- Контактна інформація -->
+        <section>
+            <h2>Контактна інформація</h2>
+            <p><strong>E-mail:</strong> ivanov@example.com</p>
+            <p><strong>Телефон:</strong> +38 (050) 123-45-67</p>
+        </section>
+        
+        <!-- Освітня діяльність -->
+        <section>
+            <h2>Освітня діяльність</h2>
+            <p><strong>Навчальні дисципліни:</strong></p>
+            <ul>
+                <li>Диференціальні рівняння</li>
+                <li>Математичний аналіз</li>
+                <li>Основи програмування</li>
+            </ul>
+            <p><a href="#">Посилання на розклад занять</a></p>
+        </section>
+        
+        <!-- Наукова діяльність -->
+        <section>
+            <h2>Наукова діяльність</h2>
+            <p><strong>Список публікацій:</strong></p>
+            <ul>
+                <li><a href="#">Наукова стаття 1</a></li>
+                <li><a href="#">Наукова стаття 2</a></li>
+                <li><a href="#">Наукова стаття 3</a></li>
+            </ul>
+            <p><strong>Наукові проекти:</strong> Участь у міжнародному проєкті "Штучний інтелект у медицині".</p>
+            <p><strong>Дослідницькі групи:</strong> Запрошую студентів приєднуватися до нашої лабораторії з комп'ютерного моделювання.</p>
+        </section>
+        
+        <!-- Професійна біографія -->
+        <section>
+            <h2>Професійна біографія</h2>
+            <p><strong>Освіта:</strong> Національний університет імені Шевченка, спеціальність "Прикладна математика".</p>
+            <p><strong>Попередній досвід роботи:</strong> Викладач у Харківському університеті, інженер-дослідник у IT-компанії.</p>
+            <p><strong>Досягнення:</strong> Лауреат премії Президента України для молодих вчених.</p>
+            <p><strong>Сертифікати:</strong> Microsoft Certified: Azure Solutions Architect Expert.</p>
+        </section>
+    </div>
+</body>
+</html>
+  
